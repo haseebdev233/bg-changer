@@ -1,12 +1,98 @@
-# React + Vite
+Background Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Background Color Changer built with React.js and Tailwind CSS. This app allows users to dynamically change the background color of the page with smooth transitions and a responsive design.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Change background color with a single click
 
-## Expanding the ESLint configuration
+Option to select from random or predefined colors
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Smooth animations and transitions using Tailwind CSS
+
+Fully responsive design for all devices
+
+Beginner-friendly project to learn React + Tailwind CSS
+
+Technologies Used
+
+React.js – Component-based UI
+
+Tailwind CSS – Utility-first styling and animations
+
+JavaScript (ES6+)
+
+HTML5 & CSS3
+
+Installation & Usage
+
+Clone the repository
+
+git clone https://github.com/haseebdev233/bg-changer.git
+
+
+Navigate into the project folder
+
+cd bg-changer
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+How It Works
+
+Run the app in your browser.
+
+Click the button or select a color option.
+
+The background will change instantly with a smooth Tailwind transition.
+
+Folder Structure (React + Tailwind Example)
+bg-changer/
+│── public/
+│── src/
+│   ├── components/
+│   │   └── BgChanger.jsx
+│   ├── App.js
+│   ├── index.css  # Tailwind CSS imports
+│   └── main.jsx
+│── tailwind.config.js
+│── postcss.config.js
+│── package.json
+│── README.md
+
+Tailwind CSS Setup (already included)
+
+In case someone wants to set up Tailwind from scratch:
+
+Install Tailwind CSS
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+Add paths in tailwind.config.js:
+
+content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+
+
+Import Tailwind in src/index.css:
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Author
+
+Haseeb Dev
+Full Stack Developer
+
+GitHub: https://github.com/haseebdev233
+
+LinkedIn: www.linkedin.com/in/haseeb-dev-137671381
